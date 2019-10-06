@@ -1,2 +1,3 @@
-# ibc-fastai
-Political ideology analysis on augmented IBC dataset (Iyyer et al 2014), using fast.ai library
+# Political ideology analysis
+
+This notebook aims to predict political ideology using the [Augmented IBC Data Set (Iyyer et. al 2014)](https://people.cs.umass.edu/~miyyer/ibc/index.html). The dataset is not included in the GitHub respository; contact Dr. Iyyer for access. I aimed to improve upon the accuracy benchmark in his [2014 paper](https://www.aclweb.org/anthology/P14-1105.pdf). Using the fast.ai text library, I was able to achieve 80.5% accuracy on the original set, an 11.2% improvement. I'm sure further improvements could be achieved using different LM architectures and data augmentation strategies; these are areas for future experimentation.
